@@ -12,6 +12,7 @@ Built With:
 - Persistent High Score: Uses localStorage to keep track of your personal best across sessions.
 - Visual Feedback: Features smooth CSS animations and a "Confetti" celebration for new high scores.
 - Responsive UI: Clean, "Bubblegum Sans" styled interface with a mobile-friendly layout.
+
 *Game Play*
 - The Countdown: When you start, a 3-second countdown will prepare you for the challenge.
 - Click the Black Cells: Once the game starts, black cells will appear randomly on the grid.
