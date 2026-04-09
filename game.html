@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./layout.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div id="mainpage" onclick="opencountdown()">
+      <div id="box">
+        <h2>Project Members</h2>
+        <div id="info">
+          <img src="./img/member1.jpeg"/>
+          <div id="student">
+            <h1><strong>Beril Öztürk</strong></h1>
+            <p>Section: 01</p>
+            <p>22402253</p>
+          </div>
+        </div>
+      </div>
+      <h1 id="countdown">3</h1>
+    </div>
+
+
+    <div id="game">
+      <div id="container">
+        <div>
+          <h3 class="label">HI-SCORE</h3>
+          <span id="highsc">1</span>
+        </div>
+        <div>
+          <h3 class="label">SCORE</h3>
+          <span id="score">0</span>
+        </div>
+        <div>
+          <h3 class="label">TIME</h3>
+          <span id="time">10</span>
+        </div>
+      </div>
+
+      <table id="tb">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <div id="darkblue">
+        <div id="lightblue"></div>
+      </div>
+
+      <br />
+
+      <h2 id="f5">F5 to play again</h2>
+
+      <h1 id="timeisup"></h1>
+      <h1 id="tap">Tap the black tiles</h1>
+    </div>
+
+    <script src="./gamescript.js"></script>
+  </body>
+</html>

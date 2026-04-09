@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body{
+    font-family: 'Bubblegum Sans';
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#mainpage{
+    visibility: visible;
+    min-height: 100vh;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box{
+    text-align: center;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+#box img{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#box h2{
+    color: blue;
+    font-size: 35px;
+}
+
+#info {
+    text-align: left;
+    gap: 20px;
+    display: flex;
+}
+
+#student p{
+    margin: 0%;
+    padding: 0%;
+}
+
+#student h1{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#countdown{
+    color: rgb(83, 126, 242);
+    font-size: 70px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tap{
+opacity: 1;
+
+text-align: center; 
+font-size: 40px;
+font-weight: 100;
+margin: 0px;
+padding: 0px;
+color: rgb(255, 171, 25);
+transform: translate(-50%, -50%);
+transition: opacity 0.5s ease;
+position: absolute;
+top: 50%;
+left: 50%;
+
+} 
+
+#tb{
+    border: 1px solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    background-color: green;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.clickable {
+    background-color: black;
+    opacity: 1;
+}
+
+#game {
+    visibility: hidden;
+    background-color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#container div h3{
+ font-size: small;
+}
+
+#highsc{
+font-size: 30px;
+}
+
+#score{
+    color: green;
+    font-size: 50px;
+}
+#time{
+color: red;
+   font-size: 30px;
+}
+
+#darkblue{
+    margin: 20px;
+    border: 1px;
+    background-color: blue;
+    width: 300px;
+    height: 10px;
+}
+
+#lightblue{
+    border: 1px;
+    background-color: aqua;
+    width: 300px;
+    height: 10px;
+
+}
+
+#f5{
+    opacity: 0;
+    visibility: hidden;
+    font-size: 20px;
+    animation: pulse 0.5s ease-in-out infinite ;
+    transition: opacity 0.5s ease;
+}
+
+@keyframes pulse{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+#timeisup{
+opacity: 0;
+visibility: hidden;
+text-align: center; 
+margin: 0px;
+padding: 0px;
+font-size: 64px;
+color: red;
+transform: translate(-50%, -50%);
+text-shadow: 15px 15px 1.5px rgba(0, 0, 0, 0.18);
+position: absolute;
+top: 40%;
+left: 50%;
+transition: opacity 1s ease;
+}
